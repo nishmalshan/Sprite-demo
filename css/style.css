@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 90px;
+    background-color: #009b4e;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar img{
+    width: 135px;
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    width: 60%;
+}
+.social{
+    width: 25%;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    margin-left: 25px;
+}
+.menu li{
+    font-family: 'Aktiv Grotesk Cd Trial Black';
+    color: #fff;
+    margin-right: 50px;
+    font-size: 14px;
+
+}
+
+.social ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social li{
+    background-color: #fff;
+    border-radius: 25px;
+    height: 22px;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social i{
+    color: #009b4e;
+    font-size: 12px;
+}
+.header {
+    background-color: #000;
+    display: flex;
+    height: 530px;
+}
+.text{
+    width: 50%;
+    padding: 70px 0px 0px 50px;
+}
+.head-image{
+    width: 50%;
+    overflow: hidden;
+}
+.head-image img{
+    width: 100%;
+}
+.text img{
+    width: 52%;
+}
+.text h1{
+    font-size: 75px;
+    color: #fff;
+    font-family: 'Aktiv Grotesk Cd Trial Black';
+    margin: 30px 0px;
+}
+.text button{
+    padding: 10px 40px;
+    font-family: 'Aktiv Grotesk Cd Trial Black';
+    background-color: rgb(255,209,0);
+    color: rgb(0,0,0);
+    border: none;
+    font-size: 15px;
+}
+.sec-1{
+    width: 100%;
+    display: flex;
+    margin: 40px 0px;
+}
+.video{
+    width: 50%;
+}
+.sec-1 iframe{
+    margin-left: 100px;
+}
+.video-text{
+    width: 50%;
+}
+.video-text h1{
+    font-size: 60px;
+    font-family: 'Aktiv Grotesk Cd Trial Black';
+}
+.video-text h3{
+    font-size: 30px;
+    font-family: 'Aktiv Grotesk Cd Trial Black';
+    margin-bottom: 50px;
+}
+.video-text button{
+    padding: 8px 40px;
+    font-family: 'Aktiv Grotesk Cd Trial XBold';
+    background-color: rgb(255,209,0);
+    color: rgb(0,0,0);
+    border: none;
+    font-size: 15px;
+}
+.sec-2{
+    width: 100%;
+    display: flex;
+}
+.t{
+    width: 50%;
+}
+.bottle{
+    background-image: url(../images/all-clear-from-here.png);
+    width: 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 438px;
+}
+
+.t h1{
+    font-family: 'Aktiv Grotesk Cd Trial Black';
+    font-size: 64px;
+    line-height: 1.25em;
+    color: rgb(0,150,57);
+    margin: 90px 0px 0px 80px;
+}
+.footer{
+    background-color: #009b4e;
+}
+.sub-footer{
+    width: 100%;
+    display: flex;
+}
+.foot-logo{
+    width: 30%;
+    margin: auto;
+}
+.foot-social{
+    width: 20%;
+}
+.foot-list{
+    width: 50%;
+}
+.foot-logo img{
+    width: 135px;
+    display: block;
+    margin: auto;
+}
+.foot-social P{
+    font-family: 'Aktiv Grotesk Cd Trial Black';
+    font-size: 14px;
+    color: #fff;
+    margin: 55px 0px;
+    text-align: center;
+}
+.foot-social ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.foot-social li{
+    background-color: #fff;
+    border-radius: 25px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 2px;
+}
+.foot-social i{
+    color: #009b4e;
+    font-size: 16px;
+}
+.foot-list ul{
+    list-style: none;
+    display: block;
+    margin: 55px 0px 0px 150px;
+}
+.foot-list li{
+    padding-bottom: 20px;
+    /* font-family: 'Aktiv Grotesk Cd Trial XBold'; */
+    font-family: 'Aktiv Grotesk Cd Trial Black';
+    color: #fff;
+    font-size: 14px;
+}
+.copyright{
+    padding: 20px 0px 40px 1px;
+}
+.copyright p{
+    font-family: 'Aktiv Grotesk Cd Trial Black';
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.copyright a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Aktiv Grotesk Cd Trial Black';
+    padding: 0px 10px;
+    font-size: 14px;
+    border-right: 1px solid #fff;
+}
